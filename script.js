@@ -26,11 +26,11 @@ for (let i = 0; i < 81; i++) {
   body.appendChild(tile);
 
 }
-let flash = prompt("Dance Party!? (Y/N)").toLowerCase();
-if (flash === "y") {
-    setInterval(buildGrid, 200, 90, "random");
-}
-else {
-    let color = prompt("What colors would you like? (redAndBlack, random, or gradient)").toLowerCase();
-    buildGrid(90, color);
-}
+// let flash = prompt("Dance Party!? (Y/N)").toLowerCase();
+// if (flash === "y") {
+//     setInterval(buildGrid, 200, 90, "random");
+// }
+// else {
+//     let color = prompt("What colors would you like? (redAndBlack, random, or gradient)").toLowerCase();
+//     buildGrid(90, color);
+// }
